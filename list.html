@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body>
-    <h1> To Do:</h1>
-    <ul>
-        <li> Walk dogs </li>
-        <li> Class </li>
-        <li> Shopping </li>
-        <li> Homework </l1>
-        <li> Cook Dinner</li>
-    </ul>
-    <label for="task">Enter Task:</label>
-    <input type="text" id="addTask">
-    <button id="addButton"> Add Task </button>
-
+    <div class="container-sm border border-primary mt-3 pb-3 ps-0 pe-0">
+        <h1 class="container-fluid text-white bg-primary"> To Do:</h1>
+        <ul id="list">
+            <li> Walk dogs </li>
+            <li> Class </li>
+            <li> Shopping </li>
+            <li> Homework </l1>
+            <li> Cook Dinner</li>
+        </ul>
+        <label class="ms-3" for="task">Enter Task:</label>
+        <input type="text" id="addTask">
+        <button id="addButton"> Add Task </button>
+    </div>
 
 </body>
 <script src="list.js"></script>
